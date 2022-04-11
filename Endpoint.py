@@ -4,8 +4,8 @@ import socket
 import requests
 from random import randint
 
-api_token = 'b3a9f284e77aa2ac135c755fa6dab100' #Your api token
-client_token = 'eab6bad1a899972bd2bbde194ac11404b3c4bd32efc6f73dd19d07ccd382d8c8' #Your Client token
+api_token = '' #Your api token
+client_token = '' #Your Client token
 def SplitDataClient(data):
     d = data.split('\n')
     request = d[0].split(' ')
