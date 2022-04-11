@@ -5,6 +5,7 @@ requirements:
                     random, socket, request, json
 
 Run in your host:
+        set your token and api key in Endpoint.py global variable
         python3 Endpoint.py (localserver)
 
 Entry:
