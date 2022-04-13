@@ -4,7 +4,7 @@ import socket
 import requests
 from random import randint
 
-api_token = '' #Your api key
+api_token = 'b3a9f284e77aa2ac135c755fa6dab100' #Your api key
 client_token = '' #Your Client token
 def SplitDataClient(data):
     d = data.split('\n')
