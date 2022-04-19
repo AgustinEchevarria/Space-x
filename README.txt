@@ -5,9 +5,8 @@ requirements:
                     random, socket, request, json
 
 Steps:
-        1__    Set your token and api key in Endpoint.py global variable
-        2__    Python3 Endpoint.py (localserver)
-        3__    Send request 'POST' or 'GET' (GET request response json with lists) --- (All request in path '/')
+        1__    Python3 Endpoint.py (localserver)
+        2__    Send request 'POST' or 'GET' (GET request response json with lists) --- (All request in path '/')
 
 Entry:
         New issue:
