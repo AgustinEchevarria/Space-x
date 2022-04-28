@@ -6,6 +6,7 @@ from random import randint
 
 api_token = 'b3a9f284e77aa2ac135c755fa6dab100' #Your api key
 client_token = 'eab6bad1a899972bd2bbde194ac11404b3c4bd32efc6f73dd19d07ccd382d8c8' #Your Client token
+
 def SplitDataClient(data):
     d = data.split('\n')
     request = d[0].split(' ')
@@ -18,6 +19,7 @@ def SplitDataClient(data):
         method.append('SOLO SE ADMINTEN SOLICITUDES GET/POST, LEA LA DOCUMENTACION PARA MAS INFORMACION.')
     print(method)
     return method
+
 def Comunicattion(soc,ip):
     host = 'api.trello.com'
     while True:
